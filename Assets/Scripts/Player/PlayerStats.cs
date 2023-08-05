@@ -7,6 +7,9 @@ namespace Assets.Scripts.Player
     {
         private Healths _healths;
         private IWeapon _weapon;
+        private Shoot _shoot;
+        private PlayerMovement _movement;
+        private LookPlayer _lookPlayer;
 
         public UserInput _userInput { get; private set; }
         public int Heslth => _healths.Points;

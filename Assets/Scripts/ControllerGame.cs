@@ -54,7 +54,7 @@ namespace Assets.Scripts
 
         private void GeneraateWall()
         {
-            int heightCreateWall = (int)_wall.localScale.y / 2;
+            float heightCreateWall = _wall.localScale.y / 2;
 
             for (int x = 0; x <= _width; x += _step)
             {
